@@ -10,9 +10,9 @@ function MyApp3({nombre,value}) {
 	const saludo = (nombre,hora) => {
 		if(hora < 0){
 		console.log("No existen horas negativas");
-		}else if(hora <= 8){
+		}else if(hora <= 12){
 		console.log("Buenos dias: " + nombre);
-		}else if(hora <= 16){
+		}else if(hora <= 17){
 		console.log("Buenos tardes: " + nombre);
 		}else if(hora <=24){
 		console.log("Buenos noches: " + nombre);
